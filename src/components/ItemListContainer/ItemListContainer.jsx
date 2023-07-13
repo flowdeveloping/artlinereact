@@ -1,8 +1,6 @@
 import { useState, useEffect } from 'react'
 import ItemList from '../ItemList/ItemList'
-// import { getProductos, getProductosPorCategoria } from '../../asyncmock'
 import { useParams } from 'react-router-dom'
-//Importamos las nuevas funciones para trabajar con Firebase: 
 import { collection, getDocs, query, where } from 'firebase/firestore';
 import { db } from '../../services/config';
 import './ItemListContainer.css'
@@ -25,13 +23,7 @@ const ItemListContainer = () => {
             .catch(error => console.log(error))
     }, [idCategoria])
 
-    // useEffect(() => {
-    //     const funcionProductos = idCategoria ? getProductosPorCategoria : getProductos;
-
-    //     funcionProductos(idCategoria)
-    //         .then(res => setProductos(res))
-    //         .catch(error => console.log(error))
-    // }, [idCategoria])
+    
 
     return (
         <>
