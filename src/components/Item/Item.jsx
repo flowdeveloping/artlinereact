@@ -13,7 +13,7 @@ const Item = ({ id, nombre, precio, img, stock }) => {
             {
                 //<button className='btnProducto'> Ver Detalles </button>
             }
-            <Link to={`/item/${id}`} className="btnProductoItem"> Ver Detalles</Link>
+            <Link to={`/item/${id}`} className="btnProductoitem"> Ver Detalles</Link>
         </div>
     )
 }

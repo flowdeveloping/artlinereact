@@ -7,6 +7,7 @@
 .formulario {
     max-width: 600px;
     margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .form-group {
@@ -26,12 +27,11 @@ input, textarea {
     border: 1px solid #ccc;
     border-radius: 5px;
     margin-bottom: 1rem;
+    
 }
 
 
-h2 {
-    text-align: center;
-}
+
 
 .ordenId {
     display: block;
@@ -40,4 +40,22 @@ h2 {
     font-size: 2rem;
     border: 1px solid black;
     border-radius: 5px;
+}
+
+.botonCheckout{
+    background-color: #D3AB9E;
+    color: white;
+    font-size: 1.2rem;
+    width: 15rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-left: 11rem;
+    
 }

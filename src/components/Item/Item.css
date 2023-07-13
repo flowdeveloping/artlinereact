@@ -16,8 +16,8 @@
     object-fit: contain;
 }
 
-.btnProducto {
-    background-color: #E78A00;
+.btnProductoitem {
+    background-color: #D3AB9E;
     color: white;
     font-size: 1.2rem;
     width: 10rem;
@@ -26,5 +26,5 @@
     border: none;
     text-align: center;
     text-decoration: none;
-    
+    cursor: pointer;
 }
