@@ -1,0 +1,23 @@
+.contenedorItem {
+    text-align: center;
+    
+    margin: 3rem;
+    
+}
+
+img {
+    width: 15vw;
+}
+
+.btnProducto{
+    background-color: #E78A00;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    width: 10rem;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+}

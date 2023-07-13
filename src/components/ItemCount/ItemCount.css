@@ -1,0 +1,27 @@
+.contenedorBotones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 30px 0;
+}
+
+.botonDoble{
+    background-color: #E78A00;
+    border: none;
+    padding: 20px 20px;
+    margin: 5px 20px;
+}
+.btnProducto{
+
+        background-color: #E78A00;
+        color: white;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 1.2rem;
+        width: 10rem;
+        padding: 1rem 2rem;
+        border-radius: 30px;
+        border: none;
+        text-align: center;
+        text-decoration: none;
+        
+    }
