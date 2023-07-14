@@ -29,17 +29,22 @@ input, textarea {
     margin-bottom: 1rem;
     
 }
-
-
-
+a{
+    text-decoration: none;
+}
 
 .ordenId {
+    font-family: Arial, Helvetica, sans-serif;
+    
+    text-align: center;
+    color: black;
     display: block;
     margin: 4rem;
     padding: 2rem;
     font-size: 2rem;
     border: 1px solid black;
     border-radius: 5px;
+    
 }
 
 .botonCheckout{
@@ -58,4 +63,22 @@ input, textarea {
     cursor: pointer;
     margin-left: 11rem;
     
+}
+
+.botonCheckoutHome {
+    background-color: #D3AB9E;
+    color: white;
+    font-size: 1.2rem;
+    width: 15rem;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    border-radius: 30px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin-top: 1rem;
+    margin-left: 42%;
 }

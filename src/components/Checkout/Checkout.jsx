@@ -3,6 +3,7 @@ import { CarritoContext } from '../../context/CarritoContext';
 import { db } from "../../services/config";
 import { collection, addDoc, updateDoc, doc, getDoc } from "firebase/firestore";
 import './Checkout.css'
+import {Link } from "react-router-dom"
 
 const Checkout = () => {
     const { carrito, vaciarCarrito, cantidadTotal } = useContext(CarritoContext);
@@ -129,11 +130,13 @@ const Checkout = () => {
             </form>
             {
                 orderId && (
-                    <strong className="ordenId">¡Muchas Gracias por tu compra! Tu número de orden es {orderId} </strong>
+                    <Link to={"/"}>   <strong className="ordenId"  >¡Muchas Gracias por tu compra! Tu número de orden es {orderId} </strong> <Link to={"/"}><button type="submit" className="botonCheckoutHome"> Volver al Home </button></Link>  </Link>
+                    
                 )
+                
             }
 
-
+            
         </div>
     )
 }
